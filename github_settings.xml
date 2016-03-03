@@ -1,0 +1,6 @@
+<application>
+  <component name="GithubSettings">
+    <option name="LOGIN" value="R13N" />
+    <option name="AUTH_TYPE" value="BASIC" />
+  </component>
+</application>
