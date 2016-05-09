@@ -76,6 +76,13 @@
   <component name="NodeLocalInterpreterManager">
     <node-interpreter path="/usr/bin/node" version="?" last-modified="0" />
   </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/Development/Python/LatexBuilder/VIRTUAL/bin/python" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RefactoringSettings">
     <option name="MOVE_PREVIEW_USAGES" value="false" />
   </component>
