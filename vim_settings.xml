@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/Development/biopythia/bioinformatics_algorithms_book/chapter01/pattern count/description/description.en.html" timestamp="1518614092161">
@@ -9,20 +9,56 @@
         <mark key="^" line="53" column="44" />
         <mark key="." line="53" column="44" />
       </file>
-      <file name="$USER_HOME$/Development/biopythia/scrape-glossary.py" timestamp="1518614831431">
-        <mark key="[" line="43" column="26" />
-        <mark key="]" line="41" column="50" />
-        <mark key="." line="41" column="50" />
-        <mark key="^" line="41" column="50" />
+      <file name="/Python Console" timestamp="1518616528445">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/fragment.py" timestamp="1518616536820">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Development/biopythia/scrape-glossary.py" timestamp="1518617483209">
+        <mark key="[" line="61" column="0" />
+        <mark key="]" line="61" column="0" />
+        <mark key="^" line="60" column="20" />
+        <mark key="." line="61" column="0" />
       </file>
     </filemarks>
     <jumps />
     <registers>
+      <register name="0" type="4">
+        <text>soup.find('div', class_='glossary-term')</text>
+      </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGZvciBpbWcgaW4gaW1nczoK</text>
       </register>
       <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIGZvciBpbWcgaW4gaW1nczoK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGZvciBpbWcgaW4gaW1nczoK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGZvciBpbWcgaW4gaW1nczoK</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">CiAgICBjd2QgPSBvcy5nZXRjd2QoKQogICAgb3MubWFrZWRpcnMob3MucGF0aC5qb2luKGN3ZCwgInB1YmxpYyIsICJnbG9zc2FyeSIpLCBleGlzdF9vaz1UcnVlKQo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGZvciBpbWcgaW4gaW1nczoK</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">CiAgICBodG1sID0gaHRtbA==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>, shortname</text>
       </register>
     </registers>
     <search>
@@ -30,6 +66,19 @@
       <show-last>false</show-last>
     </search>
     <history />
-    <shortcut-conflicts />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
 </application>
