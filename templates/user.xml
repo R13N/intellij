@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="fastaw" value="def write_fasta(seqs, fname):&#10;    with open(fname, 'w') as f:&#10;        records = (SeqRecord(Seq(kmer), id=f'seq{i:02}', description='')&#10;                   for i, kmer in enumerate(seqs, 1))&#10;        SeqIO.write(records, f, 'fasta')" description="Write FASTA" toReformat="true" toShortenFQNames="true">
+  <template name="fastaw" value="def write_fasta(seqs, fname):&#10;    &quot;&quot;&quot;&#10;    write fasta file manually&#10;    &quot;&quot;&quot;&#10;    with open(fname, 'w') as f:&#10;        f.writelines(f&quot;&gt;seq{i:02}\n{seq}&quot; for i, seq in enumerate(seqs, 1))" description="Write FASTA" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
       <option name="Python_Class" value="false" />
@@ -10,7 +10,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="fastar" value="def read_fasta(fname):&#10;    return (str(s.seq) for s in SeqIO.parse(fname, 'fasta'))" description="Read FASTA" toReformat="true" toShortenFQNames="true">
+  <template name="fastar" value="def read_fasta(fname):&#10;    &quot;&quot;&quot;&#10;    yields each sequence in the given fasta file&#10;    &quot;&quot;&quot;&#10;&#10;    # because the sequence can be formatted with newlines&#10;    # we keep track of a buffer and 'flush' it when we encounter&#10;    # a new sequence&#10;    buffer = list()&#10;    for line in open(fname):&#10;        if line.startswith('&gt;'):&#10;            if len(buffer) &gt; 0:&#10;                yield ''.join(buffer)&#10;                buffer.clear()&#10;        else:&#10;            buffer.append(line.rstrip())&#10;    yield ''.join(buffer)" description="Read FASTA" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
       <option name="Python_Class" value="false" />
