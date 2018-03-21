@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="fastaw" value="def write_fasta(seqs, fname):&#10;    &quot;&quot;&quot;&#10;    write fasta file manually&#10;    &quot;&quot;&quot;&#10;    with open(fname, 'w') as f:&#10;        f.writelines(f&quot;&gt;seq{i:02}\n{seq}&quot; for i, seq in enumerate(seqs, 1))" description="Write FASTA" toReformat="true" toShortenFQNames="true">
+  <template name="fastaw" value="def write_fasta(seqs, fname, width=60):&#10;    &quot;&quot;&quot;&#10;    write fasta file manually&#10;    &quot;&quot;&quot;&#10;    with open(fname, 'w') as f:&#10;        for i, seq in enumerate(seqs, 1):&#10;            j = 0&#10;            f.write(f&quot;&gt;seq{i:02}\n&quot;)&#10;            while len(seq) - j &lt; width:&#10;                f.write(f&quot;{seq[j:j+width]}\n&quot;)&#10;                j += width" description="Write FASTA" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
       <option name="Python_Class" value="false" />
