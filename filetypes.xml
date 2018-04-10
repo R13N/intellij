@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="*.sh.in" type="Bash" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="fna" type="PLAIN_TEXT" />
       <mapping ext="dsa" type="PLAIN_TEXT" />
