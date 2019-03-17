@@ -1710,6 +1710,23 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rb-inotify-0.9.10/lib" />
       </SOURCES>
     </library>
+    <library name="rbenv: jruby-9.2.6.0 facet library">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/gems/shared/gems/did_you_mean-1.2.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/2.5/site_ruby" />
+        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/stdlib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/jruby.jar!/jruby" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs24" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/gems/shared/gems/did_you_mean-1.2.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/2.5/site_ruby" />
+        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/stdlib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/jruby.jar!/jruby" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs24" />
+      </SOURCES>
+    </library>
     <library name="rdoc (v3.12.2, rbenv: 2.4.0) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/rdoc-3.12.2/bin" />
