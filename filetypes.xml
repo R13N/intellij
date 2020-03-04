@@ -1,10 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="faa" type="PLAIN_TEXT" />
+      <mapping pattern="*.sh.in" type="Bash" />
       <mapping ext="fna" type="PLAIN_TEXT" />
       <mapping ext="dsa" type="PLAIN_TEXT" />
-      <mapping pattern="*.sh.in" type="Bash" />
+      <mapping ext="faa" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>

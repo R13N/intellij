@@ -294,7 +294,7 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/csspool-st-3.1.2/lib" />
       </SOURCES>
     </library>
-    <library name="d3.v3" type="javaScript">
+    <library name="d3.v3">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_d3js.org_d3.v3.js" />
       </CLASSES>
@@ -869,16 +869,10 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/jeweler-2.0.1/features" />
       </SOURCES>
     </library>
-    <library name="jquery" type="javaScript">
-      <properties>
-        <option name="frameworkName" value="jQuery" />
-      </properties>
+    <library name="jquery">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__ajax.googleapis.com_ajax_libs_jquery_1.11.2_jquery.js" />
       </CLASSES>
-      <DOCUMENTATION>
-        <root url="http://api.jquery.com" />
-      </DOCUMENTATION>
       <JAVADOC />
       <SOURCES />
     </library>
@@ -1563,7 +1557,7 @@
         <root url="file://$USER_HOME$/.IntelliJIdea14/system/python_stubs/-1247971764" />
       </SOURCES>
     </library>
-    <library name="Python 3.6.3 (/usr/bin/python3.6) interpreter library">
+    <library name="Python 3.8 interpreter library">
       <CLASSES>
         <root url="file:///usr/lib/python3.6" />
         <root url="file:///usr/lib/python3.6/lib-dynload" />
@@ -1708,23 +1702,6 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rb-inotify-0.9.10/lib" />
-      </SOURCES>
-    </library>
-    <library name="rbenv: jruby-9.2.6.0 facet library">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/gems/shared/gems/did_you_mean-1.2.0/lib" />
-        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/2.5/site_ruby" />
-        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/stdlib" />
-        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/jruby.jar!/jruby" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs24" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/gems/shared/gems/did_you_mean-1.2.0/lib" />
-        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/2.5/site_ruby" />
-        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/ruby/stdlib" />
-        <root url="file://$USER_HOME$/.rbenv/versions/jruby-9.2.6.0/lib/jruby.jar!/jruby" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/ruby/rubystubs/rubystubs24" />
       </SOURCES>
     </library>
     <library name="rdoc (v3.12.2, rbenv: 2.4.0) [gem]">
