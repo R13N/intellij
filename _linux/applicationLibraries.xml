@@ -295,9 +295,7 @@
       </SOURCES>
     </library>
     <library name="d3.v3">
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_d3js.org_d3.v3.js" />
-      </CLASSES>
+      <CLASSES />
       <JAVADOC />
       <SOURCES />
     </library>
@@ -870,9 +868,7 @@
       </SOURCES>
     </library>
     <library name="jquery">
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__ajax.googleapis.com_ajax_libs_jquery_1.11.2_jquery.js" />
-      </CLASSES>
+      <CLASSES />
       <JAVADOC />
       <SOURCES />
     </library>
@@ -922,13 +918,8 @@
     </library>
     <library name="junit:junit:4.12-beta-2" type="repository">
       <properties maven-id="junit:junit:4.12-beta-2" />
-      <CLASSES>
-        <root url="jar://$USER_HOME$/Development/Java/Zeepbelbomen/lib/junit-4.12-beta-2.jar!/" />
-        <root url="jar://$USER_HOME$/Development/Java/Zeepbelbomen/lib/hamcrest-core-1.3.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$USER_HOME$/Development/Java/Zeepbelbomen/lib/junit-4.12-beta-2-javadoc.jar!/" />
-      </JAVADOC>
+      <CLASSES />
+      <JAVADOC />
       <SOURCES />
     </library>
     <library name="juwelier (v2.4.7, rbenv: 2.4.2) [gem]">
@@ -1493,7 +1484,6 @@
         <root url="file:///usr/lib/python2.7/site-packages" />
         <root url="file:///usr/lib/python2.7/site-packages/gtk-2.0" />
         <root url="file:///usr/lib/python2.7/site-packages/wx-3.0-gtk2" />
-        <root url="file://$USER_HOME$/.IntelliJIdea16/system/python_stubs/-1247972723" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
       </CLASSES>
       <JAVADOC />
@@ -1505,56 +1495,64 @@
         <root url="file:///usr/lib/python2.7/site-packages" />
         <root url="file:///usr/lib/python2.7/site-packages/gtk-2.0" />
         <root url="file:///usr/lib/python2.7/site-packages/wx-3.0-gtk2" />
-        <root url="file://$USER_HOME$/.IntelliJIdea16/system/python_stubs/-1247972723" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
       </SOURCES>
     </library>
     <library name="Python 2.7.11 virtualenv at ~/Development/Python/LatexBuilder/VIRTUAL interpreter library">
       <CLASSES>
-        <root url="file://$USER_HOME$/Development/Python/LatexBuilder/VIRTUAL/lib/python2.7" />
-        <root url="file://$USER_HOME$/Development/Python/LatexBuilder/VIRTUAL/lib/python2.7/lib-dynload" />
         <root url="file:///usr/lib64/python2.7" />
         <root url="file:///usr/lib/python2.7" />
         <root url="file:///usr/lib/python2.7/plat-linux2" />
         <root url="file:///usr/lib64/python2.7/lib-tk" />
         <root url="file:///usr/lib/python2.7/lib-tk" />
-        <root url="file://$USER_HOME$/Development/Python/LatexBuilder/VIRTUAL/lib/python2.7/site-packages" />
-        <root url="file://$USER_HOME$/.IntelliJIdea16/system/python_stubs/-88294979" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file://$USER_HOME$/Development/Python/LatexBuilder/VIRTUAL/lib/python2.7" />
-        <root url="file://$USER_HOME$/Development/Python/LatexBuilder/VIRTUAL/lib/python2.7/lib-dynload" />
         <root url="file:///usr/lib64/python2.7" />
         <root url="file:///usr/lib/python2.7" />
         <root url="file:///usr/lib/python2.7/plat-linux2" />
         <root url="file:///usr/lib64/python2.7/lib-tk" />
         <root url="file:///usr/lib/python2.7/lib-tk" />
-        <root url="file://$USER_HOME$/Development/Python/LatexBuilder/VIRTUAL/lib/python2.7/site-packages" />
-        <root url="file://$USER_HOME$/.IntelliJIdea16/system/python_stubs/-88294979" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
       </SOURCES>
     </library>
     <library name="Python 3.5.0 (/usr/bin/python3.5) interpreter library">
       <CLASSES>
-        <root url="file:///usr/lib/python3.5/site-packages/psutil-3.2.2-py3.5-linux-x86_64.egg" />
-        <root url="file:///usr/lib/python3.5" />
-        <root url="file:///usr/lib/python3.5/plat-linux" />
-        <root url="file:///usr/lib/python3.5/lib-dynload" />
-        <root url="file:///usr/lib/python3.5/site-packages" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
-        <root url="file://$USER_HOME$/.IntelliJIdea14/system/python_stubs/-1247971764" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file:///usr/lib/python3.5/site-packages/psutil-3.2.2-py3.5-linux-x86_64.egg" />
-        <root url="file:///usr/lib/python3.5" />
-        <root url="file:///usr/lib/python3.5/plat-linux" />
-        <root url="file:///usr/lib/python3.5/lib-dynload" />
-        <root url="file:///usr/lib/python3.5/site-packages" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
-        <root url="file://$USER_HOME$/.IntelliJIdea14/system/python_stubs/-1247971764" />
+      </SOURCES>
+    </library>
+    <library name="Python 3.8 interpreter library">
+      <CLASSES>
+        <root url="file:///usr/lib/python3.8" />
+        <root url="file:///usr/lib/python3.8/lib-dynload" />
+        <root url="file://$USER_HOME$/.local/lib/python3.8/site-packages" />
+        <root url="file:///usr/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/.cache/JetBrains/IntelliJIdea2020.1/python_stubs/-1247971761" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/lib/python3.8" />
+        <root url="file:///usr/lib/python3.8/lib-dynload" />
+        <root url="file://$USER_HOME$/.local/lib/python3.8/site-packages" />
+        <root url="file:///usr/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/.cache/JetBrains/IntelliJIdea2020.1/python_stubs/-1247971761" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
       </SOURCES>
     </library>
     <library name="rack (v2.0.3, rbenv: 2.4.0) [gem]">
